@@ -21,8 +21,8 @@ pipeline {
                   mvn clean verify sonar:sonar \
                   -Dsonar.projectKey=java-hello-world-with-maven \
                   -Dsonar.projectName='java-hello-world-with-maven' \
-                  -Dsonar.host.url=http://172.17.0.2:9000 \
-                  -Dsonar.token=sqp_dcfe4c0e61e516e909693dc5df0c7020d83dfeb0
+                  -Dsonar.host.url=http://172.17.0.3:9000 \
+                  -Dsonar.token=sqp_9b2aac04461525ab8b40af9a82defc8d7f2fdf56
                 '''
             }
         }
